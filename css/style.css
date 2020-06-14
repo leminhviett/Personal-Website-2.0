@@ -1,0 +1,74 @@
+#particles-js {
+    height: 100vh;
+    width: 100%;
+    background: black;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+
+.info-inside {
+    position: absolute;
+    top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    /* Adding top/left of 50% moves the top/left margin edge of the element to the middle of the parent, 
+    and translate() function with the (negative) value of -50% moves the element by the half of its size. 
+    Hence the element will be positioned at the middle. */
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.content-section {
+    padding: 30px 150px;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    min-height: 22rem;
+}
+
+.background-contact {
+    height: 15rem;
+    padding: 20px 0;
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../assets/bg.jpg), no-repeat, center, center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.btn{
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+	background: white; 
+	font-size: 1rem;
+	cursor: pointer;
+	margin: 1rem;
+	transition: 0.65s;
+	position: relative;
+	color:black ;
+	z-index: 0;
+}
+
+.btn-small{
+    padding: 0.5rem 0;
+    margin:0;
+    color:white;
+    background-color: black;
+}
+
+.icon {
+	size: initial;
+}
+
+.btn:hover{
+	background: rgb(0, 205, 246);
+	color:black;
+	border: 1px solid rgb(255, 255, 255);	
+}
+
+.raleway-font {
+    font-family: 'Raleway' !important;
+}
